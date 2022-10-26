@@ -5,5 +5,8 @@ public class Main {
         name1.changeName("Zenek");
         name1.viewName();
         System.out.println(name1.viewName());
+        name1.changeSoftness(false);
+        name1.viewSoftness();
+        System.out.println(name1.viewSoftness());
     }
 }

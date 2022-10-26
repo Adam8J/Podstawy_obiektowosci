@@ -14,4 +14,12 @@ public class Rabbit {
     public String viewName(){
         return name;
     }
+    public void changeSoftness(boolean softness){
+        this.softness=softness;
+
+    }
+    public boolean viewSoftness(){
+        return softness;
+    }
+
 }
