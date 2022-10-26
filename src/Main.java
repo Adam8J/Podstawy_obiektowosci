@@ -3,5 +3,7 @@ public class Main {
 
         Rabbit name1 = new Rabbit(15, "Hony", true );
         name1.changeName("Zenek");
+        name1.viewName();
+        System.out.println(name1.viewName());
     }
 }
